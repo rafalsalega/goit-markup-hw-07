@@ -273,20 +273,36 @@ text-align: center;
   display: flex;
   justify-content: space-between;
 }
-.team-card:not(:last-child) {
-    margin-right: 30px;
-  }
-
-  .team-card img {
-    border-radius: 0px;
-  }
-
 
 .team-card {
   background-color: rgba(255, 255, 255, 1);
   width: 270px;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.team-card:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  .team-card__img {
+    border-radius: 0px;
+  }
+
+.team-card__name {
+  line-height: 1.1875;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-card__job {
+  color: rgba(117, 117, 117, 1);
+  line-height: 1.1875;
+  text-align: center;
 }
 
 /* Team-members */ /* Socials */
@@ -332,22 +348,6 @@ padding-bottom: 12px;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
-h3 {
-  line-height: 1.1875;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-
-.member-position {
-  color: rgba(117, 117, 117, 1);
-  line-height: 1.1875;
-  text-align: center;
-}
 
 /* Clients */
 
@@ -869,6 +869,17 @@ font-style: normal;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
+
+h3 {
+  line-height: 1.1875;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
 /* KONIECZNIE TRZEBA ZOSTAWIĆ i gdzies uzyc */
 ul {
   padding-inline-start: 0px;
