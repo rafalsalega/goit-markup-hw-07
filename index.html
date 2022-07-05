@@ -16,13 +16,13 @@
   </head>
   <body>
     <header class="header">
-      <div class="header-container">
-        <a class="logo" href="index.html"><span class="logo__txt-web">Web</span>studio</a>
+      <div class="header-content">
+        <a class="logo logo--dark-theme" href="index.html"><span class="logo__txt-web">Web</span>studio</a>
         <nav class="navigation">
           <ul class="nav-menu">
             <li class="nav-menu__item nav-menu__item--current-page"><a class="nav-menu__link" href="index.html">Agencja</a></li>
             <li class="nav-menu__item"><a class="nav-menu__link" href="portfolio.html">Portfolio</a></li>
-            <li class="nav-menu__item"><a class="nav-menu__link" href="kontakty.html">Kontakty</a></li>
+            <li class="nav-menu__item nav-menu__item--last-child"><a class="nav-menu__link" href="kontakty.html">Kontakty</a></li>
           </ul>
         </nav>
         <ul class="contacts">
@@ -30,7 +30,7 @@
             <a class="contacts-item__link"
               href="mailto:info@example.com"
               >
-              <svg class="contacts-item__icon" width="16px" height="12px">
+              <svg class="contacts-item__icon contacts-item__icon--mail">
                 <use
                   href="./images/sprite.svg#icon-envelope"
                 ></use>
@@ -40,7 +40,7 @@
           <li class="contacts-item">
             <a class="contacts-item__link"
               href="tel:+48111111111">  
-              <svg class="contacts-item__icon" width="10px" height="16px">
+              <svg class="contacts-item__icon contacts-item__icon--phone">
               <use
                 href="./images/sprite.svg#icon-smartphone"
               ></use>
@@ -61,7 +61,6 @@
 
       <section class="features">
         <div class="features-content">
-        <h2 hidden>Nasze atuty</h2>
         <ul class="features-list">
           <li class="features-list-item">
             <div class="features-box"> 
@@ -115,38 +114,33 @@
         </ul>
       </div>
       </section>
+
       <section class="interests">
         <div class="interests-content">
         <h2 class="interests-content__title">Czym się zajmujemy</h2>
         <ul class="interests-list">
-          <li class="interests-list-item">
-            <img
+          <li class="interests-item">
+            <img class="interests-item__img"
               src="images/1_notebook.jpg"
               alt="tablet na biurku"
-              width="370"
-              height="294"
             />
             <div class="interests-subject">
               <h4>APLIKACJE KOMPUTEROWE</h4>
             </div>
           </li>
-          <li class="interests-list-item">
-            <img
+          <li class="interests-item">
+            <img class="interests-item__img"
               src="images/2_notebook_phone.jpg"
               alt="mezczyzna przy laptopie z telefonem w reku"
-              width="370"
-              height="294"
             />
             <div class="interests-subject"> 
               <h4>APLIKACJE MOBILNE</h4>
             </div>
           </li>
-          <li class="interests-list-item">
-            <img
+          <li class="interests-item">
+            <img class="interests-item__img"
               src="images/3_notebook.jpg"
               alt="czlowiek pracujacy na tablecie"
-              width="370"
-              height="294"
             />
             <div class="interests-subject">
               <h4>ROZWIĄZANIA GRAFICZNE</h4>
@@ -165,40 +159,36 @@
             <img class="team-card__img"
               src="images/1_man.jpg"
               alt="mezczyzna"
-              width="270"
-              height="260"
             />
             <h3 class="team-card__name">John Doe</h3>
             <p class="team-card__job">Product Designer</p>
 <ul class="socials-list">
-  <li class="socials-item">
-    <a class="socials-item__link" href="#">
-      <svg class="socials-item__icon">
-        <use class="socials-item__icon--insta" href="./images/sprite.svg#icon-instagram-2"></use>
-      </svg></a></li>
-      <li class="socials-item">
-        <a class="socials-item__link" href="#">
-          <svg class="socials-item__icon">
-            <use class="socials-item__icon--twitter" href="./images/sprite.svg#twitter"></use>
-          </svg></a></li>
-          <li class="socials-item">
-            <a class="socials-item__link" href="#">
-              <svg class="socials-item__icon">
-                <use class="socials-item__icon--fb" href="./images/sprite.svg#icon-Vector-2"></use>
-              </svg></a></li>
-              <li class="socials-item">
-                <a class="socials-item__link" href="#">
-                  <svg class="socials-item__icon">
-                    <use class="socials-item__icon--linkin" href="./images/sprite.svg#icon-linkedin2"></use>
-                  </svg></a></li>
+ <li class="socials-item">
+<a class="socials-item__link" href="#">
+<svg class="socials-item__icon">
+<use class="socials-item__icon--insta" href="./images/sprite.svg#icon-instagram-2"></use>
+</svg></a></li>
+<li class="socials-item">
+<a class="socials-item__link" href="#">
+<svg class="socials-item__icon">
+ <use class="socials-item__icon--twitter" href="./images/sprite.svg#twitter"></use>
+</svg></a></li>
+ <li class="socials-item">
+<a class="socials-item__link" href="#">
+<svg class="socials-item__icon">
+ <use class="socials-item__icon--fb" href="./images/sprite.svg#icon-Vector-2"></use>
+</svg></a></li>
+<li class="socials-item">
+ <a class="socials-item__link" href="#">
+<svg class="socials-item__icon">
+ <use class="socials-item__icon--linkin" href="./images/sprite.svg#icon-linkedin2"></use>
+ </svg></a></li>
 </ul>
           </li>
           <li class="team-card">
             <img  class="team-card__img"
               src="images/2_woman.jpg"
               alt="kobieta"
-              width="270"
-              height="260"
             />
 
             <h3 class="team-card__name">John Doe</h3>
@@ -230,10 +220,7 @@
             <img  class="team-card__img"
               src="images/3_man.jpg"
               alt="mezczyzna"
-              width="270"
-              height="260"
             />
-
             <h3 class="team-card__name">John Doe</h3>
             <p class="team-card__job">Marketing</p>
 
@@ -264,8 +251,6 @@
             <img  class="team-card__img"
               src="images/4_man.jpg"
               alt="mezczyzna"
-              width="270"
-              height="260"
             />
             <h3 class="team-card__name">John Doe</h3>
             <p class="team-card__job">UI Designer</p>
@@ -346,7 +331,7 @@
       <div class="footer-content">
         <div>
           
-      <a class="logo-bot" href="index.html"><span class="logo-bot__web-txt">Web</span>studio</a>
+          <a class="logo logo--white-theme" href="index.html"><span class="logo__txt-web">Web</span>studio</a>
       <address class="address">m. Warszawa, Aleje Jerozolimskie 21</address>
       <address class="address-contact">
         <a class="address-contact-link"

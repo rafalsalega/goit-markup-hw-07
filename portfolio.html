@@ -16,13 +16,13 @@
   </head>
   <body class="body">
     <header class="header">
-      <div class="header-container">
-        <a class="logo" href="index.html"><span class="logo__txt-web">Web</span>studio</a>
+      <div class="header-content">
+        <a class="logo logo--dark-theme" href="index.html"><span class="logo__txt-web">Web</span>studio</a>
         <nav class="navigation">
           <ul class="nav-menu">
             <li class="nav-menu__item "><a class="nav-menu__link" href="index.html">Agencja</a></li>
             <li class="nav-menu__item nav-menu__item--current-page"><a class="nav-menu__link" href="portfolio.html">Portfolio</a></li>
-            <li class="nav-menu__item"><a class="nav-menu__link" href="kontakty.html">Kontakty</a></li>
+            <li class="nav-menu__item nav-menu__item--last-child"><a class="nav-menu__link" href="kontakty.html">Kontakty</a></li>
           </ul>
         </nav>
         <ul class="contacts">
@@ -30,7 +30,7 @@
             <a class="contacts-item__link"
               href="mailto:info@example.com"
               >
-              <svg class="contacts-item__icon" width="16px" height="12px">
+              <svg class="contacts-item__icon contacts-item__icon--mail">
                 <use
                   href="./images/sprite.svg#icon-envelope"
                 ></use>
@@ -40,7 +40,7 @@
           <li class="contacts-item">
             <a class="contacts-item__link"
               href="tel:+48111111111">  
-              <svg class="contacts-item__icon" width="10px" height="16px">
+              <svg class="contacts-item__icon contacts-item__icon--phone">
               <use
                 href="./images/sprite.svg#icon-smartphone"
               ></use>
@@ -66,12 +66,12 @@
         </ul>
         <ul class="projects-grid">
           <li class="project-card">
-            <img class="project-card-img"
+            <img class="project-card__img"
               src="images/Portfolio_Technocrack.jpg"
               alt="laptop and webpage"
             />
-            <h4 class="project-card-title" >Technocrack</h4>
-            <p class="project-card-object">Strona internetowa</p>
+            <h4 class="project-card__title">Technocrack</h4>
+            <p class="project-card__object">Strona internetowa</p>
             <div class="projects-hover-overlay"><p class="projects-hover-overlay__txt">
               Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji  
             </p></div>
@@ -81,8 +81,8 @@
               src="images/Portfolio_basketball.jpg"
               alt="basketball"
             />
-            <h4 class="project-card-title" >Grafika New Orlean vs Golden Star</h4>
-            <p class="project-card-object">Dizajn</p>
+            <h4 class="project-card__title" >Grafika New Orlean vs Golden Star</h4>
+            <p class="project-card__object">Dizajn</p>
             <div class="projects-hover-overlay"><p class="projects-hover-overlay__txt">
               Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji  
             </p></div>
@@ -92,8 +92,8 @@
               src="images/Portfolio_seafood.jpg"
               alt="Seefood restaurant"
             />
-            <h4 class="project-card-title" >Restauracja Seafood</h4>
-            <p class="project-card-object">Aplikacja</p>
+            <h4 class="project-card__title" >Restauracja Seafood</h4>
+            <p class="project-card__object">Aplikacja</p>
             <div class="projects-hover-overlay"><p class="projects-hover-overlay__txt">
               Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji  
             </p></div>
@@ -103,8 +103,8 @@
               src="images/Portfolio_headphones.jpg"
               alt="headphones"
             />
-            <h4 class="project-card-title" >Projekt Prime</h4>
-            <p class="project-card-object">Marketing</p>
+            <h4 class="project-card__title" >Projekt Prime</h4>
+            <p class="project-card__object">Marketing</p>
             <div class="projects-hover-overlay"><p class="projects-hover-overlay__txt">
               Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji  
             </p></div>
@@ -114,8 +114,8 @@
               src="images/Portfolio_bricks.jpg"
               alt="bricks"
             />
-            <h4 class="project-card-title" >Projekt Boxes</h4>
-            <p class="project-card-object">Aplikacja</p>
+            <h4 class="project-card__title" >Projekt Boxes</h4>
+            <p class="project-card__object">Aplikacja</p>
             <div class="projects-hover-overlay"><p class="projects-hover-overlay__txt">
               Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji  
             </p></div>
@@ -125,8 +125,8 @@
               src="images/Portfolio_monitor.jpg"
               alt="monitor"
             />
-            <h4 class="project-card-title" >Inspiration has no Borders</h4>
-            <p class="project-card-object">Strona internetowa</p>
+            <h4 class="project-card__title" >Inspiration has no Borders</h4>
+            <p class="project-card__object">Strona internetowa</p>
             <div class="projects-hover-overlay"><p class="projects-hover-overlay__txt">
               Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji  
             </p></div>
@@ -136,8 +136,8 @@
               src="images/Portfolio_newspaper.jpg"
               alt="newspaper"
             />
-            <h4 class="project-card-title" >Magazyn Limited Edition</h4>
-            <p class="project-card-object">Dizajn</p>
+            <h4 class="project-card__title" >Magazyn Limited Edition</h4>
+            <p class="project-card__object">Dizajn</p>
             <div class="projects-hover-overlay"><p class="projects-hover-overlay__txt">
               Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji  
             </p></div>
@@ -147,8 +147,8 @@
               src="images/Portfolio_tag.jpg"
               alt="tag"
             />
-            <h4 class="project-card-title" >Projekt LAB</h4>
-            <p class="project-card-object">Marketing</p>
+            <h4 class="project-card__title" >Projekt LAB</h4>
+            <p class="project-card__object">Marketing</p>
             <div class="projects-hover-overlay"><p class="projects-hover-overlay__txt">
               Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji  
             </p></div>
@@ -159,8 +159,8 @@
               alt="notebook"
 
             />
-            <h4 class="project-card-title" >Growing Business</h4>
-            <p class="project-card-object">Aplikacja</p>
+            <h4 class="project-card__title" >Growing Business</h4>
+            <p class="project-card__object">Aplikacja</p>
             <div class="projects-hover-overlay"><p class="projects-hover-overlay__txt">
               Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji  
             </p></div>

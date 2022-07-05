@@ -1,3 +1,26 @@
+h4 {
+  font-size: 14px;
+  line-height: 1.42;
+  font-weight: bold;
+font-style: normal;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+h3 {
+  line-height: 1.1875;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+ul {
+  padding-inline-start: 0px;
+}
+
 /* Header */
 .header {
   background-color: #FFFFFF;
@@ -5,7 +28,7 @@
   border-bottom: 1px solid #ECECEC;;
 }
 
-.header-container {
+.header-content {
   width: 1200px;
   margin: 0 auto;
   display: flex;
@@ -19,14 +42,22 @@
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-  color: black;
   margin-right: 53px;
+}
+
+.logo--dark-theme {
+  color: black;
+}
+
+.logo--white-theme {
+  color: white
 }
 
 .logo__txt-web {
   color: #2196F3
 }
 /* Navigation */
+
 .navigation { 
 }
 
@@ -36,9 +67,11 @@
   padding-inline-start: 0;
   list-style-type:none;
 }
-
-.nav-menu__item:not(:last-child) {
+.nav-menu__item {
   margin-right: 46px;
+}
+.nav-menu__item--last-child {
+  margin-right: 0;
 }
 
 .nav-menu__link {
@@ -102,6 +135,16 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 .contacts-item__icon {
   margin-right: 10px;
 }
+
+.contacts-item__icon--mail {
+  width: 16px;
+  height: 12px;
+}
+.contacts-item__icon--phone {
+  width: 10px;
+  height: 16px;
+}
+
 /* END OF HEADER/
 
 /* Main */
@@ -119,7 +162,6 @@ margin: 0 auto;}
     margin: 0 auto;
 }
 .hero-content--slogan {
-  font-style: black;
   font-size: 44px;
   font-weight: 900;
   line-height: 1.6;
@@ -162,7 +204,6 @@ border: 0;
   justify-content: space-between;
 }
 .features-list-item {
-    float: left;
     margin-right: 20px;
 }
 
@@ -230,12 +271,16 @@ text-align: center;
   justify-content: space-between;
 }
 
-.interests-list-item {
+.interests-item {
   position: relative;
 }
 
-.interests-list-item:not(:last-child) {
+.interests-item:not(:last-child) {
   margin-right: 30px;
+}
+.interests-item__img {
+width: 370px;
+height: 294px;
 }
 
 .interests-subject {
@@ -287,6 +332,8 @@ text-align: center;
 
   .team-card__img {
     border-radius: 0px;
+    width: 270px;
+    height: 260px;
   }
 
 .team-card__name {
@@ -808,7 +855,7 @@ background-color: rgba(255, 255, 255, 1);
   transition-property: box-shadow;
  position: relative;
 }
-.project-card-img {
+.project-card__img {
   width: 370px;
   height: 294px;
 }
@@ -819,7 +866,7 @@ background-color: rgba(255, 255, 255, 1);
  transition-duration: 250ms;
  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
 
-.project-card-title {
+.project-card__title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -830,7 +877,7 @@ background-color: rgba(255, 255, 255, 1);
   margin-block-end: 4px;
   text-transform: none;
 }
-.project-card-object {
+.project-card__object {
     line-height: 1.875;
     color: rgba(117, 117, 117, 1);
     margin-left: 24px;
@@ -865,31 +912,4 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
   text-align: left;
   color: rgba(255, 255, 255, 1);
   position: absolute;
-}
-
-
-/* Wyrzutki  */
-
-h4 {
-  font-size: 14px;
-  line-height: 1.42;
-  font-weight: bold;
-font-style: normal;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-}
-
-h3 {
-  line-height: 1.1875;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-
-/* KONIECZNIE TRZEBA ZOSTAWIĆ i gdzies uzyc */
-ul {
-  padding-inline-start: 0px;
 }
