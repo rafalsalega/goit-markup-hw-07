@@ -1,5 +1,5 @@
-header {
-    background-color: #FFFFFF;
-    height: 80px;
-    border-bottom: 1px solid #ECECEC;;
-  }
+@import "./utils/visually-hidden";
+
+
+// Base
+@import "./utils/variables";
