@@ -1,0 +1,41 @@
+
+.interests { padding: 94px 0px;}
+.interests-content {
+  width: 1200px;
+  margin: 0 auto;}
+
+.interests-content__title {
+  font-size: 36px;
+  line-height: 1.166;
+text-align: center;
+}
+.interests-list {
+  list-style-type: none;
+  padding-inline-start: 0;
+  display: flex ;
+  justify-content: space-between;
+}
+
+.interests-item {
+  position: relative;
+}
+
+.interests-item:not(:last-child) {
+  margin-right: 30px;
+}
+.interests-item__img {
+width: 370px;
+height: 294px;
+}
+
+.interests-subject {
+  color: var(--white);
+  background-color: rgba(47, 48, 58, 0.8);
+  width: 370px;
+height: 70px;
+display: flex;
+align-items: center;
+justify-content: center;
+position: absolute;
+bottom: 4px;
+}
