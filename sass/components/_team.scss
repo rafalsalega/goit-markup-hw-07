@@ -7,19 +7,7 @@
     width: 1200px;
     margin: 0 auto;
   }
-  
-  .team-content__title {
-    font-size: 36px;
-    line-height: 1.166;
-  text-align: center;
-  }
-  .team-members {
-    list-style-type: none;
-    padding-inline-start: 0;
-    display: flex;
-    justify-content: space-between;
-  }
-  
+
   .team-card {
     background-color: var(--white);
     width: 270px;

@@ -6,12 +6,8 @@
     background-size: cover;
   max-width: 1600px;
   margin: 0 auto;}
-  
-  .hero-content {
-      width: 1200px;
-      margin: 0 auto;
-  }
-  .hero-content--slogan {
+
+  .hero__slogan {
     font-size: 44px;
     font-weight: 900;
     line-height: 1.6;
@@ -23,7 +19,7 @@
     margin: auto;
   }
     
-  .hero-content--button {
+  .hero__button {
     line-height: 1.875; 
     font-weight: bold;
     color: var(--white);

@@ -17,7 +17,7 @@
   </head>
   <body>
     <header class="header">
-      <div class="header-content">
+      <div class="container container--header">
         <a class="logo logo--dark-theme" href="index.html"><span class="logo__txt-web">Web</span>studio</a>
         <nav class="navigation">
           <ul class="nav-menu">
@@ -54,60 +54,60 @@
     </header>
     <main>
         <section class="hero">
-          <div class="hero-content">
-          <h1 class="hero-content--slogan">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-          <button type="button" class="hero-content--button" data-modal-open>Zamów usługe</button>
+          <div class="container">
+          <h1 class="hero__slogan">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+          <button type="button" class="hero__button" data-modal-open>Zamów usługe</button>
         </div>
         </section>
 
-      <section class="features">
-        <div class="features-content">
-        <ul class="features-list">
-          <li class="features-list-item">
-            <div class="features-box"> 
-               <svg class="features-box__antenna">
+      <section class="section">
+        <div class="container">
+        <ul class="list">
+          <li class="features__item">
+            <div class="features__box"> 
+               <svg class="features__box--antenna">
               <use href="./images/sprite.svg#icon-antenna-1"
               >
             </use>
             </svg></div>
-            <h4 class="features-list-item__tittle">LOREM IPSUM</h4>
-            <p class="features-list-item__text">
+            <h4 class="features__item--tittle">LOREM IPSUM</h4>
+            <p class="features__item--text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li class="features-list-item">
-            <div class="features-box"> <svg class="features-box__clock">
+          <li class="features__item">
+            <div class="features__box"> <svg class="features__box--clock">
               <use href="./images/sprite.svg#icon-clock-1"
               >
             </use>
             </svg></div>
-            <h4 class="features-list-item__tittle">LOREM IPSUM</h4>
-            <p class="features-list-item__text">
+            <h4 class="features__item--tittle">LOREM IPSUM</h4>
+            <p class="features__item--text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li class="features-list-item">
-            <div class="features-box"> <svg class="features-box__diagram">
+          <li class="features__item">
+            <div class="features__box"> <svg class="features__box--diagram">
               <use href="./images/sprite.svg#icon-diagram-1"
               >
             </use>
             </svg></div>
-            <h4 class="features-list-item__tittle">LOREM IPSUM</h4>
-            <p class="features-list-item__text">
+            <h4 class="features__item--tittle">LOREM IPSUM</h4>
+            <p class="features__item--text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
               vel arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li class="features-list-item">
-            <div class="features-box"> <svg class="features-box__astronaut">
+          <li class="features__item">
+            <div class="features__box"> <svg class="features__box--astronaut">
               <use href="./images/sprite.svg#icon-astronaut-1"
               >
             </use>
             </svg></div>
-            <h4 class="features-list-item__tittle">LOREM IPSUM</h4>
-            <p class="features-list-item__text">
+            <h4 class="features__item--tittle">LOREM IPSUM</h4>
+            <p class="features__item--text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
@@ -116,34 +116,34 @@
       </div>
       </section>
 
-      <section class="interests">
-        <div class="interests-content">
-        <h2 class="interests-content__title">Czym się zajmujemy</h2>
-        <ul class="interests-list">
-          <li class="interests-item">
-            <img class="interests-item__img"
+      <section class="section">
+        <div class="container">
+        <h2 class="section__tittle">Czym się zajmujemy</h2>
+        <ul class="list">
+          <li class="interests__item">
+            <img class="interests__item--img"
               src="images/1_notebook.jpg"
               alt="tablet na biurku"
             />
-            <div class="interests-subject">
+            <div class="interests__subject">
               <h4>APLIKACJE KOMPUTEROWE</h4>
             </div>
           </li>
-          <li class="interests-item">
-            <img class="interests-item__img"
+          <li class="interests__item">
+            <img class="interests__item--img"
               src="images/2_notebook_phone.jpg"
               alt="mezczyzna przy laptopie z telefonem w reku"
             />
-            <div class="interests-subject"> 
+            <div class="interests__subject"> 
               <h4>APLIKACJE MOBILNE</h4>
             </div>
           </li>
-          <li class="interests-item">
-            <img class="interests-item__img"
+          <li class="interests__item">
+            <img class="interests__item--img"
               src="images/3_notebook.jpg"
               alt="czlowiek pracujacy na tablecie"
             />
-            <div class="interests-subject">
+            <div class="interests__subject">
               <h4>ROZWIĄZANIA GRAFICZNE</h4>
             </div>
           </li>
@@ -151,11 +151,11 @@
       </div>
       </section>
 
-      <section class="team">
+      <section class="section section--team">
         <!-- Nasz zespół -->
-        <div class="team-content">
-        <h2 class="team-content__title">Nasz zespół</h2>
-        <ul class="team-members">
+        <div class="container">
+        <h2 class="section__tittle">Nasz zespół</h2>
+        <ul class="list">
           <li class="team-card">
             <img class="team-card__img"
               src="images/1_man.jpg"
@@ -163,7 +163,7 @@
             />
             <h3 class="team-card__name">John Doe</h3>
             <p class="team-card__job">Product Designer</p>
-<ul class="socials-list">
+<ul class="list list--socials">
  <li class="socials-item">
 <a class="socials-item__link" href="#">
 <svg class="socials-item__icon">
@@ -283,10 +283,10 @@
       </section>
 
 
-      <section class="clients">
-        <div class="clients-content">
-        <h2 class="clients-content__title">Nasi klienci</h2>
-        <ul class="clients-list">
+      <section class="section">
+        <div class="container">
+        <h2 class="section__tittle">Nasi klienci</h2>
+        <ul class="list">
           <li class="clients-item">
             <a class="clients-item__link" href="#">
               <svg class="clients-item__icon">
@@ -329,19 +329,19 @@
       </main>
 
     <footer class="footer">
-      <div class="footer-content">
+      <div class="container container--footer">
         <div>
           
           <a class="logo logo--white-theme" href="index.html"><span class="logo__txt-web">Web</span>studio</a>
       <address class="address">m. Warszawa, Aleje Jerozolimskie 21</address>
-      <address class="address-contact">
-        <a class="address-contact-link"
+      <address class="address__contact">
+        <a class="address__link"
           href="mailto:info@example.com"
           >info@example.com</a
         >
       </address>
-      <address class="address-contact">
-        <a class="address-contact-link"
+      <address class="address__contact">
+        <a class="address__link"
            href="tel:+48111111111"> +48 111 111 111</a>
       </address>
     </div>

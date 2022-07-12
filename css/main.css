@@ -36,6 +36,51 @@ h3 {
 
 ul {
   padding-inline-start: 0px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.container--header {
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
+.container--footer {
+  padding-top: 60px;
+  display: flex;
+}
+
+.section {
+  padding: 94px 0px;
+}
+
+.section--team {
+  background-color: var(--white-grey);
+}
+
+.section__tittle {
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list--socials {
+  margin-right: 32px;
+  margin-left: 32px;
+  margin-bottom: 18px;
+  padding-bottom: 12px;
 }
 
 .header {
@@ -43,7 +88,7 @@ ul {
   border-bottom: 1px solid var(--white-grey);
 }
 
-.header-content {
+.header__content {
   width: 1200px;
   margin: 0 auto;
   display: flex;
@@ -169,12 +214,7 @@ ul {
   margin: 0 auto;
 }
 
-.hero-content {
-  width: 1200px;
-  margin: 0 auto;
-}
-
-.hero-content--slogan {
+.hero__slogan {
   font-size: 44px;
   font-weight: 900;
   line-height: 1.6;
@@ -186,7 +226,7 @@ ul {
   margin: auto;
 }
 
-.hero-content--button {
+.hero__button {
   line-height: 1.875;
   font-weight: bold;
   color: var(--white);
@@ -205,22 +245,19 @@ ul {
   padding: 94px 0px;
 }
 
-.features-content {
-  width: 1200px;
-  margin: 0 auto;
-}
-
-.features-list {
+.features__list {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
 }
 
-.features-list-item {
+.features__item {
   margin-right: 20px;
+  font-size: 14px;
+  width: 270px;
 }
 
-.features-box {
+.features__box {
   background-color: var(--white-grey);
   height: 120px;
   width: 270px;
@@ -231,38 +268,33 @@ ul {
   align-items: center;
 }
 
-.features-list-item__tittle {
-  font-size: 14px;
+.features__item--tittle {
   line-height: 1.42;
   font-weight: bold;
   font-style: normal;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
-  width: 270px;
 }
 
-.features-list-item__text {
+.features__item--text {
   color: var(--grey);
-  font-size: 14px;
-  width: 270px;
 }
 
-.features-box__antenna {
+.features__box--antenna {
   width: 65.32px;
   height: 70px;
 }
 
-.features-box__clock {
+.features__box--clock {
   width: 66.96px;
   height: 70px;
 }
 
-.features-box__diagram {
+.features__box--diagram {
   width: 53.69px;
   height: 70px;
 }
 
-.features-box__astronaut {
+.features__box--astronaut {
   width: 54.83px;
   height: 60.66px;
 }
@@ -271,26 +303,14 @@ ul {
   padding: 94px 0px;
 }
 
-.interests-content {
+.interests__content {
   width: 1200px;
   margin: 0 auto;
 }
 
-.interests-content__title {
-  font-size: 36px;
-  line-height: 1.166;
-  text-align: center;
-}
-
-.interests-list {
-  list-style-type: none;
-  padding-inline-start: 0;
-  display: flex;
-  justify-content: space-between;
-}
-
-.interests-item {
+.interests__item {
   position: relative;
+  width: 370px;
 }
 
 .interests-item:not(:last-child) {
@@ -298,11 +318,10 @@ ul {
 }
 
 .interests-item__img {
-  width: 370px;
   height: 294px;
 }
 
-.interests-subject {
+.interests__subject {
   color: var(--white);
   background-color: rgba(47, 48, 58, 0.8);
   width: 370px;
@@ -322,19 +341,6 @@ ul {
 .team-content {
   width: 1200px;
   margin: 0 auto;
-}
-
-.team-content__title {
-  font-size: 36px;
-  line-height: 1.166;
-  text-align: center;
-}
-
-.team-members {
-  list-style-type: none;
-  padding-inline-start: 0;
-  display: flex;
-  justify-content: space-between;
 }
 
 .team-card {
@@ -410,21 +416,8 @@ ul {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-content {
-  width: 1200px;
-  margin: 0 auto;
-}
-
 .clients {
   padding: 94px 0px;
-}
-
-.clients-list {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  margin-block-start: 0;
-  margin-block-end: 0;
 }
 
 .clients-item__link {
@@ -476,12 +469,12 @@ ul {
   margin-top: 20px;
 }
 
-.address-contact {
+.address__contact {
   color: var(--social-grey);
   margin-top: 9px;
 }
 
-.address-contact-link {
+.address__link {
   text-decoration: none;
   color: var(--social-grey);
   margin-top: 9px;
@@ -602,9 +595,6 @@ input:focus {
 
 .modal-content {
   opacity: 100%;
-}
-
-.modal-content {
   position: absolute;
   top: 50%;
   left: 50%;
