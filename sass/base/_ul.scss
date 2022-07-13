@@ -9,6 +9,16 @@
         margin-left: 32px;
         margin-bottom: 18px;
         padding-bottom: 12px;
-        
 }
     
+.list--footer-socials {
+    gap: 10px;
+  }
+  .list--filters {
+    justify-content: center;
+      margin-bottom: 50px;
+  }
+  .list--projects {
+    flex-wrap: wrap;
+    row-gap: 30px;
+  }
