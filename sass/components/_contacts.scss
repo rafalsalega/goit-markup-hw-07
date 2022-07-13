@@ -15,14 +15,14 @@
     line-height: 1.14;
     font-weight: 500;
     transition-property: color;
-  }
-  .contacts-item__link:hover,
-  .contacts-item__link:focus {
+  
+  &:hover,
+  &:focus {
     color: var(--blue);
     stroke: var(--blue);
     transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  
+    }
   }
   .contacts-item__icon {
     margin-right: 10px;

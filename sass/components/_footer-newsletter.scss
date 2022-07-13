@@ -19,10 +19,10 @@
   color: var(--white);
   outline: none;
   
-  }
-  .form-input:focus {
+    &:focus {
   outline: 1px solid var(--blue);
   }
+}
   
   .form-btn {position: relative;
     margin-left: 12px;

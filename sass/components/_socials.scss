@@ -5,16 +5,18 @@
 .socials-item__icon--team {
     fill: var(--social-grey);
     transition-property: fill;
-  }
-  .socials-item__icon--footer {
-    fill: var(--white);
-  }
+  
 
-  .socials-item__icon--team:hover,
-  .socials-item__icon--team:focus {
+  &:hover,
+  &:focus {
     fill: var(--white);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+  .socials-item__icon--footer {
+    fill: var(--white);
   }
   
   .socials-item__link {
@@ -25,17 +27,20 @@
     align-items: center;
     justify-content: center;
     transition-property: background-color;
-  }
-  .socials-item__link--footer {
-    background: rgba(255, 255, 255, 0.1);
-  }
-
-  .socials-item__link:hover,
-  .socials-item__link:focus {
+  
+  &:hover,
+  &:focus {
     background-color: var(--blue);
       transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
+}
+
+  .socials-item__link--footer {
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+
 
 
   

@@ -21,13 +21,13 @@
   color: var(--black);
   list-style-type: none;
   transition-property: color;
-}
 
-.nav-menu__link:hover,
-.nav-menu__link:focus {
+&:hover,
+&:focus {
   color: var(--blue);
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+}
 }
 
 .nav-menu__item--current-page {

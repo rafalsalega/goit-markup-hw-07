@@ -7,17 +7,19 @@
     border: 1px solid var(--white-grey);
     transition-property: box-shadow;
    position: relative;
+  
+  &:hover,
+  &:focus { box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06),
+   0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+   transition-duration: 250ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
+}
+
   .project-card__img {
     width: 370px;
     height: 294px;
   }
-  
-  .project-card:hover,
-  .project-card:focus { box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06),
-   0px 1px 1px 0px rgba(0, 0, 0, 0.12);
-   transition-duration: 250ms;
-   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
   
   .project-card__title {
     font-weight: 700;

@@ -1,4 +1,3 @@
-
   .clients-item__link {
     width: 170px;
     height: 92px;
@@ -8,21 +7,26 @@
     justify-content: center;
     align-items: center;
     transition-property: fill, border-color;
-  
+
+    &:hover,
+    &:focus {border-color: var(--blue);
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+      svg {
+       fill: var(--blue);
+       transition-duration: 250ms;
+       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+     }
+    }
   }
-  .clients-item__icon {
+
+    .clients-item__icon {
     width: 106px;
     height: 60px;
     fill: var(--social-grey);
   }
-  .clients-item__link:hover svg,
-  .clients-item__link:focus svg {
-  fill: var(--blue);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .clients-item__link:hover,
-  .clients-item__link:focus {border-color: var(--blue);;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
+
+
+
   

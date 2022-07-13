@@ -154,9 +154,7 @@ ul {
   list-style-type: none;
   transition-property: color;
 }
-
-.nav-menu__link:hover,
-.nav-menu__link:focus {
+.nav-menu__link:hover, .nav-menu__link:focus {
   color: var(--blue);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -196,9 +194,7 @@ ul {
   font-weight: 500;
   transition-property: color;
 }
-
-.contacts-item__link:hover,
-.contacts-item__link:focus {
+.contacts-item__link:hover, .contacts-item__link:focus {
   color: var(--blue);
   stroke: var(--blue);
   transition-duration: 250ms;
@@ -363,25 +359,21 @@ ul {
   align-items: center;
   transition-property: fill, border-color;
 }
-
-.clients-item__icon {
-  width: 106px;
-  height: 60px;
-  fill: var(--social-grey);
+.clients-item__link:hover, .clients-item__link:focus {
+  border-color: var(--blue);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.clients-item__link:hover svg,
-.clients-item__link:focus svg {
+.clients-item__link:hover svg, .clients-item__link:focus svg {
   fill: var(--blue);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-item__link:hover,
-.clients-item__link:focus {
-  border-color: var(--blue);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+.clients-item__icon {
+  width: 106px;
+  height: 60px;
+  fill: var(--social-grey);
 }
 
 .footer {
@@ -422,13 +414,6 @@ ul {
   margin-block-start: 12px;
 }
 
-.footer-socials-item__link:hover,
-.footer-socials-item__link:focus {
-  background-color: var(--blue);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 /* NEWSLETTER - FOOTER  */
 .newsletter {
   margin-left: 78px;
@@ -451,7 +436,6 @@ ul {
   color: var(--white);
   outline: none;
 }
-
 .form-input:focus {
   outline: 1px solid var(--blue);
 }
@@ -725,9 +709,7 @@ input:focus-visible {
   border-radius: 4px;
   transition-property: background-color, color, box-shadow;
 }
-
-.filters-item__button:hover,
-.filters-item__button:focus {
+.filters-item__button:hover, .filters-item__button:focus {
   color: var(--white);
   background-color: var(--blue);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
@@ -744,17 +726,15 @@ input:focus-visible {
   transition-property: box-shadow;
   position: relative;
 }
+.project-card:hover, .project-card:focus {
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .project-card__img {
   width: 370px;
   height: 294px;
-}
-
-.project-card:hover,
-.project-card:focus {
-  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .project-card__title {
@@ -817,16 +797,14 @@ input:focus-visible {
   fill: var(--social-grey);
   transition-property: fill;
 }
-
-.socials-item__icon--footer {
-  fill: var(--white);
-}
-
-.socials-item__icon--team:hover,
-.socials-item__icon--team:focus {
+.socials-item__icon--team:hover, .socials-item__icon--team:focus {
   fill: var(--white);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.socials-item__icon--footer {
+  fill: var(--white);
 }
 
 .socials-item__link {
@@ -838,14 +816,12 @@ input:focus-visible {
   justify-content: center;
   transition-property: background-color;
 }
-
-.socials-item__link--footer {
-  background: rgba(255, 255, 255, 0.1);
-}
-
-.socials-item__link:hover,
-.socials-item__link:focus {
+.socials-item__link:hover, .socials-item__link:focus {
   background-color: var(--blue);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.socials-item__link--footer {
+  background: rgba(255, 255, 255, 0.1);
 }/*# sourceMappingURL=main.css.map */
