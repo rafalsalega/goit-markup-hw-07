@@ -186,7 +186,7 @@ ul {
   margin-right: 50px;
 }
 
-.contacts-item__link {
+.contacts__link {
   text-decoration: none;
   color: var(--grey);
   font-size: 14px;
@@ -194,23 +194,23 @@ ul {
   font-weight: 500;
   transition-property: color;
 }
-.contacts-item__link:hover, .contacts-item__link:focus {
+.contacts__link:hover, .contacts__link:focus {
   color: var(--blue);
   stroke: var(--blue);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts-item__icon {
+.contacts__icon {
   margin-right: 10px;
 }
 
-.contacts-item__icon--mail {
+.contacts__icon--mail {
   width: 16px;
   height: 12px;
 }
 
-.contacts-item__icon--phone {
+.contacts__icon--phone {
   width: 10px;
   height: 16px;
 }
@@ -394,7 +394,7 @@ ul {
   margin-top: 20px;
 }
 
-.address-contact {
+.address--grey {
   color: var(--social-grey);
   margin-top: 9px;
 }
