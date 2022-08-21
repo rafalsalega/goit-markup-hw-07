@@ -166,23 +166,23 @@
 <ul class="list list--socials">
  <li class="socials-item">
 <a class="socials-item__link" href="#">
-<svg class="socials-item__icon socials-item__icon--team">
-<use  href="./images/sprite.svg#icon-instagram-2"></use>
+  <svg class="socials-item__icon socials-item__icon--team">
+    <use  href="./images/sprite.svg#icon-instagram-2"></use>
 </svg></a></li>
 <li class="socials-item">
 <a class="socials-item__link" href="#">
-<svg class="socials-item__icon socials-item__icon--team">
- <use  href="./images/sprite.svg#twitter"></use>
+  <svg class="socials-item__icon socials-item__icon--team">
+    <use  href="./images/sprite.svg#twitter"></use>
 </svg></a></li>
  <li class="socials-item">
 <a class="socials-item__link" href="#">
-<svg class="socials-item__icon socials-item__icon--team">
- <use  href="./images/sprite.svg#icon-Vector-2"></use>
+  <svg class="socials-item__icon socials-item__icon--team">
+    <use  href="./images/sprite.svg#icon-Vector-2"></use>
 </svg></a></li>
 <li class="socials-item">
  <a class="socials-item__link" href="#">
-<svg class="socials-item__icon socials-item__icon--team">
- <use  href="./images/sprite.svg#icon-linkedin2"></use>
+  <svg class="socials-item__icon socials-item__icon--team">
+    <use  href="./images/sprite.svg#icon-linkedin2"></use>
  </svg></a></li>
 </ul>
   </li>
@@ -394,69 +394,70 @@
     
     <div class="backdrop is-hidden" data-modal>
       <div class="modal-content">
-        <button type="button" class="modal-close-button" data-modal-close>
-        <svg class="close-button">
-          <use href="./images/sprite.svg#icon-close-button"></use>
-        </svg>
-      </button>
+        <button type="button" class="modal-close" data-modal-close>
+          <svg class="modal-close__button">
+            <use href="./images/sprite.svg#icon-close-button"></use>
+          </svg>
+        </button>
     
-      <form 
+    <form 
      class="modal-form" 
      name="leave-data"
      >
       <h3 class="modal-txt"> Zostaw swoje dane w formularzu poniżej </h3>
-<label class="user-name">
-  Imię
-  <svg class="icon-user-name input-icon">
-    <use href="./images/sprite.svg#icon-first-name"> 
-    </use>  
-  </svg>
-    <input type="text" name="name" id="user-name" required />
- </label>
- <label class="user-tel">
-  Telefon
-  <svg class="icon-modal-phone input-icon">
-    <use href="./images/sprite.svg#icon-phone-modal"> 
-    </use>  
-  </svg>
-    <input type="tel" name="phone" id="user-phone" required />
- </label>
- <label class="user-email">
-  Email
-  <svg class="icon-modal-email input-icon">
-    <use href="./images/sprite.svg#icon-mail-modal"> 
-    </use>  
-  </svg>
-    <input type="email" name="email" id="user-email" required />
- </label>
- <label>
-  Komentarz
-  <textarea class="user-comment"
-  type="text"
-  name="comment"
-  placeholder="Wprowadź tekst">
-</textarea>
- </label>
+      <label class="user-name">
+        Imię
+          <svg class="icon-user-name input-icon">
+            <use href="./images/sprite.svg#icon-first-name"> 
+            </use>  
+          </svg>
+          <input type="text" name="name" id="user-name" required />
+      </label>
+      <label class="user-tel">
+      Telefon
+        <svg class="icon-modal-phone input-icon">
+          <use href="./images/sprite.svg#icon-phone-modal"> 
+          </use>  
+        </svg>
+        <input type="tel" name="phone" id="user-phone" required />
+      </label>
+      <label class="user-email">
+      Email
+        <svg class="icon-modal-email input-icon">
+          <use href="./images/sprite.svg#icon-mail-modal"> 
+          </use>  
+        </svg>
+        <input type="email" name="email" id="user-email" required />
+      </label>
+      <label>
+      Komentarz
+        <textarea 
+          class="user-comment"
+          type="text"
+          name="comment"
+          placeholder="Wprowadź tekst">
+        </textarea>
+      </label>
 
- <div class="modal-checkbox"><!-- -->
-  <input
-    class="checkbox-input" 
-    type="checkbox"
-    name="agreement"
-    value="agreement"
-    required
-  />
+      <div class="modal-checkbox"><!-- -->
+        <input
+          class="checkbox-input" 
+          type="checkbox"
+          name="agreement"
+          value="agreement"
+          required
+        />
 
-  <label for="agreement" class="checkbox-label">
-    Oświadczam, iż akceptuję
-    <a href="#rules">Regulamin</a> i
-    <a href="#privacypolicy">Politykę Prywatności</a>.
-  </label>
-</div>
-<button class="modal-send-button" type="submit">Wyślij</button>
-
-     </form>
+      <label for="agreement" class="checkbox-label">
+        Oświadczam, iż akceptuję
+        <a href="#rules">Regulamin</a> i
+        <a href="#privacypolicy">Politykę Prywatności</a>.
+      </label>
       </div>
+      
+      <button class="modal-send-button" type="submit">Wyślij</button>
+    </form>
+    </div>
     </div>
     <script src="./js/modal.js"></script>
   </body>
