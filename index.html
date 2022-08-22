@@ -400,62 +400,52 @@
           </svg>
         </button>
     
-    <form 
-     class="modal-form" 
-     name="leave-data"
-     >
-      <h3 class="modal-txt"> Zostaw swoje dane w formularzu poniżej </h3>
-      <label class="user-name">
+    <form class="modal-form" name="leave-data">
+      <h3 class="modal-form__title"> Zostaw swoje dane w formularzu poniżej </h3>
+      <label class="form-label">
         Imię
-          <svg class="icon-user-name input-icon">
+          <svg class="form-label__symbol form-label__symbol--username">
+            <!-- input-icon -->
             <use href="./images/sprite.svg#icon-first-name"> 
             </use>  
           </svg>
-          <input type="text" name="name" id="user-name" required />
+          <input class="form-label__input" type="text" name="name" id="user-name" required />
       </label>
-      <label class="user-tel">
+      <label class="form-label">
       Telefon
-        <svg class="icon-modal-phone input-icon">
+        <svg class="form-label__symbol form-label__symbol--phone">
           <use href="./images/sprite.svg#icon-phone-modal"> 
           </use>  
         </svg>
-        <input type="tel" name="phone" id="user-phone" required />
+        <input class="form-label__input" type="tel" name="phone" id="user-phone" required />
       </label>
-      <label class="user-email">
+      <label class="form-label">
       Email
-        <svg class="icon-modal-email input-icon">
+        <svg class="form-label__symbol form-label__symbol--email">
           <use href="./images/sprite.svg#icon-mail-modal"> 
           </use>  
         </svg>
-        <input type="email" name="email" id="user-email" required />
+        <input class="form-label__input" type="email" name="email" id="user-email" required />
       </label>
-      <label>
+      <label class="form-label">
       Komentarz
-        <textarea 
-          class="user-comment"
-          type="text"
-          name="comment"
-          placeholder="Wprowadź tekst">
+        <textarea class="form-label__textarea" type="text" name="comment" 
+        placeholder="Wprowadź tekst">
         </textarea>
       </label>
 
-      <div class="modal-checkbox"><!-- -->
-        <input
-          class="checkbox-input" 
-          type="checkbox"
-          name="agreement"
-          value="agreement"
-          required
-        />
+      <div class="form-checkbox">
+        <input class="form-checkbox__input" type="checkbox" name="agreement"
+          value="agreement" required />
 
-      <label for="agreement" class="checkbox-label">
+      <label for="agreement" class="form-checkbox__label">
         Oświadczam, iż akceptuję
         <a href="#rules">Regulamin</a> i
         <a href="#privacypolicy">Politykę Prywatności</a>.
       </label>
       </div>
       
-      <button class="modal-send-button" type="submit">Wyślij</button>
+      <button class="modal-form__button" type="submit">Wyślij</button>
     </form>
     </div>
     </div>
